@@ -1,0 +1,4 @@
+sudo git clone https://github.com/kirikra0/-.git
+sudo cd -/
+sudo chmod +x wifi.sh
+echo "Установка прошла успешно, проверьте работоспособность!"

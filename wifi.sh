@@ -28,7 +28,7 @@ select_network() {
     then
     echo "Приступаю ко взлому через 3 секунды"
     sleep 3
-    aircrack-ng -w /9mil.txt -b $BSSID file-01.cap
+    aircrack-ng -w 9mil.txt -b $BSSID file-01.cap
     else
     echo "КАП файл под названием file-01.cap сохранен, проверьте другие файлы для анализа в случае неообходимости"
     fi
